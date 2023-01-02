@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo]()
-- Live Site URL: [Live Preview]()
+- Solution URL: [Github Repo](https://github.com/jahongirdev/ping-coming-soon-page-master)
+- Live Site URL: [Live Preview](https://pingsooncoming.netlify.app/)
 
 ### Built with
 
