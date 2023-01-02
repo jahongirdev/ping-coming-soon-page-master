@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero {
+  margin: 80px 0px;
+}
+.hero h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.hero h1 b {
+  color: hsl(209, 33%, 12%);
+}
+.hero p {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  color: hsl(209, 33%, 12%);
+}
+.hero .form input {
+  font-size: 18px;
+  border-radius: 30px;
+  width: 400px;
+  height: 50px;
+  padding: 10px 20px;
+  border: 1px solid hsl(223, 100%, 88%);
+  outline: none;
+}
+.hero .form input::placeholder {
+  color: hsl(0, 0%, 59%);
+}
+.hero .form input:focus {
+  border: 1px solid hsl(209, 33%, 12%);
+}
+.hero .form button {
+  background-color: hsl(223, 87%, 63%);
+  color: #ffffff;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid hsl(223, 87%, 63%);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+.hero .form button:hover,
+.hero .form button:focus {
+  background-color: #ffffff;
+  color: hsl(223, 87%, 63%);
+}
+.hero .form button:active {
+  opacity: 0.8;
+}
+.hero .hero-img {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 50px;
+}
+.hero .social {
+  margin: 30px 0px;
+}
+.hero .social a {
+  color: hsl(223, 87%, 63%);
+  margin-right: 30px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.hero .social a:last-child {
+  margin-right: 0;
+}
+.hero .social a:hover,
+.hero .social a:focus {
+  color: hsl(209, 33%, 12%);
+}
+.hero .social a:active {
+  opacity: 0.7;
+}
+.hero span {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: hsl(0, 0%, 59%);
+}
+@media (max-width: 700px) {
+  .hero .hero-img {
+    margin: 50px 0px;
+  }
+}
+@media (max-width: 600px) {
+  .hero .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+  }
+  .hero .form input {
+    width: 100%;
+  }
+  .hero .form button {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
